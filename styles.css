@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color:#333
   }
   
   .container {
@@ -21,8 +21,7 @@ body {
   .flag {
     float: left; 
     width: 40%;
-    background-color: cyan;
-    border-radius: 0 8px 8px 0;
+    background-color: rgb(31, 166, 193);
     padding: 20px;
     box-sizing: border-box;
     height: 110vh; 
