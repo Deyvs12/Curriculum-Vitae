@@ -12,44 +12,62 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: relative;
-    overflow: hidden; /* Evita que el contenido se desborde */
-    margin-left: 50%; /* Mueve la mitad del ancho */
-    transform: translateX(-50%); /* Centra horizontalmente */
-    height: 100vh; /* Ajusta la altura para ocupar toda la pantalla */
+    overflow: hidden;
+    margin-left: 50%; 
+    transform: translateX(-50%); 
+    height: 100vh; 
   }
   
   .flag {
-    float: left; /* Colocar a la izquierda */;
+    float: left; 
     width: 40%;
     background-color: cyan;
     border-radius: 0 8px 8px 0;
     padding: 20px;
     box-sizing: border-box;
-    height: 110vh; /* Ocupa toda la altura del contenedor */
+    height: 110vh; 
   }
 
   .content {
-    float: right; /* Colocar a la derecha */
+    float: right;
     width: 60%;
     border-radius: 0 8px 8px 0;
     padding: 20px;
     box-sizing: border-box;
-    height: 110vh; /* Ocupa toda la altura del contenedor */
+    height: 110vh; 
 
+  }
+
+  .pic {
+    transform: translate(-50%, 0);
+    left: 50%;
+    position: relative;
+    width: 60%;
+    aspect-ratio: 1;
+    height: auto;
+    border-radius: 200px;
+    object-fit: cover;
+    object-position: 50% 20%;
+
+    
   }
 
   h1 {
     text-align: center;
-    color: #333;
+    color: black;
   }
   
   h2 {
-    color: #444;
+    color: black;
   }
   
   .ulxd {
     list-style: none;
     padding: 0;
+  }
+
+  h3 {
+    color: #333;
   }
   
   li {
